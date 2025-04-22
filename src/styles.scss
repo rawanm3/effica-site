@@ -710,7 +710,7 @@ width: 89%;
 /* services */
 .services {
     background-color: white;
-    padding: 100px 0 90px;
+    padding: 50px 0 0;
 }
 .services-bg{
     margin: 2rem 0rem;
@@ -774,17 +774,17 @@ max-width: 600px;
 }
 .services-bg .container p{
     font-size: 20px;
-    line-height: 1.4;
+    line-height: 1.2;
     padding: 1rem 0 1rem  0;
     color: black;
 }
 .services-bg .container span{
     display: flex;
     flex-direction: row;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 .services-bg .container span p{
-    font-size: 16px;
+    font-size: 18px;
     padding: 0;
     margin: 0;
 }
@@ -874,7 +874,7 @@ max-width: 600px;
 
 /* our work */
 .our-work {
-    padding-top: 100px;
+    padding-top: 200px;
     color: #eee;
 }
 
@@ -1419,7 +1419,7 @@ footer ul li:last-child {
         margin-bottom: 3rem;
     }
     .services-bg .container {
-        width: 65%;
+        width: 83%;
     }
     .services .content {
         width: 100%;
@@ -1628,7 +1628,7 @@ footer ul li:last-child {
         height: 100%;
         width: auto;
         align-items: baseline;
-        background-color: #fadee9;
+        background-color: #ffeef5;
         align-items: center;
         font-size: 1.5rem;
         // background: #ffd5e6;
@@ -1683,6 +1683,15 @@ footer ul li:last-child {
     left: 2rem;
     padding: 1rem;
     }
+    .our-work {
+        padding-top: 100px;
+        color: #eee;
+    }
+    .services-bg .container span p {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+    }
     .rt-photo img{
         width: 75px;
     }
@@ -1718,7 +1727,7 @@ footer ul li:last-child {
     }
     .services-bg .container p{
         font-size: 16px;
-        padding: 0rem 0 1rem 0;
+        padding: 0rem 0 1.5rem 0;
     }
     .services-bg .container div {
         width: 100%;
@@ -1730,6 +1739,7 @@ footer ul li:last-child {
     .services-bg .container h5 {
         font-size: 35px;
         width: 100%;
+        padding: 0 0 1rem 0;
     }
     .title-section h3 {
         color: black;
@@ -1741,7 +1751,7 @@ footer ul li:last-child {
         width: 100%;
         color: black;
         line-height: 28px;
-        font-size: 18px;
+        font-size: 15px;
     }
     .lt-photo{
         top:-9rem;
@@ -1750,6 +1760,15 @@ footer ul li:last-child {
     }
     .lt-photo img{
         width: 75px;
+    }
+    .carousel-inner {
+        width: 100%;
+        padding: 2rem;
+    }
+    .carousel-item img {
+        height: 359px;
+        object-fit: cover;
+        border-radius: 20px;
     }
 }
 
@@ -1930,14 +1949,17 @@ footer ul li:last-child {
     }
     .line{
         height: 29%;
-        top: -140px;
+        top: -107px;
         border-left: 1px solid black
     }
     .line-back{
         height: 22%;
     }
     .line-r {
-        left: 45px;
+        left: 39px;
+    }
+    .ph-icon{
+        width: 1rem;
     }
     .home-intro h2 {
         font-size:1.8rem;
