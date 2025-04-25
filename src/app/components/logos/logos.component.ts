@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-logos',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './logos.component.html',
-  styleUrl: './logos.component.scss'
+  styleUrls: ['./logos.component.scss']
 })
 export class LogosComponent {
-
+ 
 }

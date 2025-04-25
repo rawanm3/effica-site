@@ -180,7 +180,7 @@ box-shadow: 0.00px 0.00px 13px 0px rgba(0, 0, 0, 0.2);;
     // background: transparent;
     width: 5rem;
     height: 5rem;
-    background-image: url("./assets/img/image (1).png");
+    background-image: url("./assets/img/image (12).png");
     font-weight: 700;
 }
 
@@ -1277,7 +1277,7 @@ form textarea {
     box-shadow:0px 0px 13px 0px rgba(0, 0, 0, 0.2);
 }
 .testemonials .carousel-item img {
-    height: 65px;
+    height: 91px;
     object-fit: cover;
 }
 .testemonials .carousel-item{
@@ -1344,7 +1344,7 @@ footer {
 
 footer h5 {
     color: black;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 footer h6 {
@@ -1580,7 +1580,16 @@ footer ul li:last-child {
     .about p{
         font-size: 1rem;
         line-height: 1.5rem;
-        width: 82%;
+        width: 86%;
+        align-self: baseline;
+    }
+    .coding-language {
+        width: 72%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .about-list{
+        width: 88% !important;
     }
     .about ul li{
         font: 1em sans-serif;
@@ -1607,6 +1616,12 @@ footer ul li:last-child {
     }
     .testemonials .carousel-item img{
         margin-top: 0;
+        height: 61px;
+        align-self: flex-start;
+        // margin-left:2rem ;
+    }
+    .test-m{
+        margin-left: 2rem;
     }
     .testemonials-1font{
         font-size: 1.5rem;
@@ -1623,18 +1638,26 @@ footer ul li:last-child {
         max-width: 95%;
     }
     .navbar .navbar-nav {
-        width: auto;
-        justify-content: start;
-        height: 100%;
-        width: auto;
-        align-items: baseline;
-        background-color: #ffeef5;
-        align-items: center;
-        font-size: 1.5rem;
-        // background: #ffd5e6;
-        color: black;
-        padding-top: 10px;
-        padding-bottom: 12px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 60vw;
+        background-color: #fff;
+        padding-top: 4rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1050;
+    }
+    .close-btn {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 2rem;
+        background: none;
+        border: none;
+        cursor: pointer;
     }
     .coding-language span {
         padding: 1.5rem 1rem;
@@ -1657,9 +1680,9 @@ footer ul li:last-child {
         overflow: hidden;
     }
     .navbar .navbar-nav li {
-        padding: 0 32px;
+     padding: 1rem 1rem;
+     align-self: center;
     }
-
     .pricing .content {
         margin-bottom: 30px;
     }
@@ -1726,8 +1749,12 @@ footer ul li:last-child {
         min-height: 0 !important;
     }
     .services-bg .container p{
-        font-size: 16px;
+        font-size: 15px;
         padding: 0rem 0 1.5rem 0;
+    }
+    .icon{
+        width: 2rem;
+        align-self: flex-start;
     }
     .services-bg .container div {
         width: 100%;
@@ -1748,10 +1775,21 @@ footer ul li:last-child {
         margin-bottom: 1rem;
     }
     .title-section p {
-        width: 100%;
-        color: black;
-        line-height: 28px;
+        width: 95%;
+        line-height: 24px;
         font-size: 15px;
+    }
+    .carousel-caption{
+        width: 75%;
+        height: 27%;
+        padding: 10px;
+    border-radius: 5px;
+    }
+    .carousel-caption h5{
+    font-size:1rem ;
+    }
+    .carousel-caption p{
+    font-size:0.65rem ;
     }
     .lt-photo{
         top:-9rem;
